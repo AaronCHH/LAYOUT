@@ -1,0 +1,26 @@
+/* example 1 */
+.box {
+  float: left;
+  width: 200px;
+  height: 100px;
+  margin: 1em;
+  border: solid green 3px;
+}
+.after-box1 {
+  clear: left;
+  border: solid yellow 3px;
+}
+
+
+/* example 2 */
+.box2 {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  margin: 1em;
+  border: solid green 3px;
+}
+
+.after-box2 {
+  border: solid yellow 3px;
+}

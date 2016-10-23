@@ -1,0 +1,14 @@
+.clearfix{
+  overflow: auto;
+  border: solid green 3px;
+}
+nav {
+  float: left;
+  width: 200px;
+  border: solid pink 3px;
+  box-sizing: border-box;
+}
+section {
+  margin-left: 200px;
+  border: solid yellow 3px;
+}

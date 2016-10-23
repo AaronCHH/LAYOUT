@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    /* example 1 */
+    img {
+      float: right;
+    }
+    
+    .clearfix1 {
+      overflow: auto;
+    }
+    /* example 2 */
+    
+    .clearfix2 {
+      overflow: auto;
+      zoom: 1;
+    }
+
+  </style>
+</head>
+
+<body>
+  <h2>example 1</h2>
+  <div style="border: solid green 3px;">
+    <img src="img/ilta.png"> 喔，不 ...... 這個圖片比包含它的元素還高，而且它是浮動的，於是它就溢出到了容器外面！
+  </div>
+
+  <div style="clear:both"></div>
+  <h2>example 2</h2>
+  <div class="clearfix1" style="border: solid green 3px;">
+    <img src="img/ilta.png"> 好多了！
+  </div>
+
+  <h2>example 3</h2>
+  <div class="clearfix2" style="border: solid green 3px;">
+    <img src="img/ilta.png"> 好多了！
+  </div>
+</body>
+
+</html>

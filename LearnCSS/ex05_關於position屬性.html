@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="sytle05.css">
+  </head>
+  <body>
+    <!-- example 1 -->
+    <h2>static</h2>
+    <div class="static" style="border: solid green 2px;">static 是預設值。任何套用 position: static; 的元素「不會被特別定位」在頁面上特定位置，而是照著瀏覽器預設的配置自動排版在頁面上，所有其他的屬性值都代表該元素會被定位在頁面上。</div>
+    <br>
+    
+    <!-- example 2 -->
+    <h2>relative</h2>
+    <div class="relative1" style="border: solid green 2px;">relative 表現的和 static 一樣，除非你增加了一些額外的屬性。</div>
+    <div class="relative2" style="border: solid pink 2px;">在一個設定為 position: relative 的元素內設定 top 、 right 、 bottom 和 left 屬性，會使其元素「相對地」調整其原本該出現的所在位置，而不管這些「相對定位」過的元素如何在頁面上移動位置或增加了多少空間，都不會影響到原本其他元素所在的位置。</div>
+    <br>
+    <!-- example 3 -->
+    <h2>fixed</h2>
+    <div class="fixed" style="border: solid yellow 2px;">哈囉～ 先不要太關注我！</div>
+    <br>
+    <!-- example 4 -->
+    <h2>absolute</h2>
+    <div class="relative" style="border: solid green 2px;">這個元素是相對定位的，如果它是 position: static;，那麼它的子元素如果套用「絕對定位」的話，就會跳過它，並直接參考 body 元素的相對位置。
+      <div class="absolute" style="border: solid pink 2px;">這個元素被設定成絕對定位（position: absolute;），它會相對於它的父元素進行定位（相對於父元素的絕對定位）。</div>
+    </div>
+    
+  </body>
+</html>

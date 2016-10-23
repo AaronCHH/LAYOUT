@@ -1,0 +1,26 @@
+/* example 1 */
+article{
+  overflow: auto;
+  /*width: 600px;*/
+}
+
+article img {
+  float: right;
+  width: 50%;
+}
+
+/* example 2 */
+.container{
+  overflow: auto;
+  border: solid green 3px;
+}
+nav {
+  float: left;
+  width: 25%;
+  border: solid pink 3px;
+  box-sizing: border-box;
+}
+section {
+  margin-left: 25%;
+  border: solid yellow 3px;
+}

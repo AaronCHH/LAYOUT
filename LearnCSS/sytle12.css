@@ -1,0 +1,18 @@
+.container{
+  border: solid green 3px;
+}
+@media screen and (min-width:600px) {
+  nav {
+    float: left;
+    width: 25%;    
+  }
+  section {
+    margin-left: 25%;
+    border: solid yellow 3px;
+  }
+}
+@media screen and (max-width:599px) {
+  nav li {
+    display: inline;
+  }
+}
